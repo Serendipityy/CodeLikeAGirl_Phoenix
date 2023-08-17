@@ -1,0 +1,18 @@
+.common__section {
+    height: 460px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.common__section h1 {
+    text-align: center;
+    margin: auto;
+    font-size: 5rem;
+    color: #fff;
+    font-family: 'Dancing Script', cursive;
+    letter-spacing: 0.75rem;
+    font-weight: 600;
+    text-shadow: 2px 2px rgb(94, 255, 164);
+}

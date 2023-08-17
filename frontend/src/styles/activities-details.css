@@ -1,0 +1,74 @@
+.activities__wrapper {
+    background: url('../assets/images/registerBg4.jpg') center / cover;
+}
+.activities__intro {
+    display: flex;
+    flex-direction: column;
+}
+
+.activities__intro button {
+    border-radius: 0.5rem !important;
+    padding: 1rem !important;
+}
+
+.activities__intro .activities__img {
+    width: 100%;
+    height: 550px;
+    object-fit: cover;
+    border-radius: .5rem;
+    margin-bottom: 2.5rem;
+}
+
+.activities__content .activities__details {
+    border-radius: 0.5rem;
+    border: 1px solid rgb(0, 219, 146);
+    padding: 2rem;
+}
+
+.activities__characteristics {
+    border-radius: 0.5rem;
+    border: 2px dashed rgb(0, 219, 146);
+    padding: 2rem;
+}
+
+.activities__details h2 {
+    font-size: 2rem;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 600;
+}
+
+.activities__info span {
+    display: flex;
+    align-items: center;
+    column-gap: 0.5rem;
+    font-size: 1rem;
+    color: var(--text-color);
+}
+
+.activities__info span i {
+    color: var(--primary-color);
+    font-size: 1.1rem;
+}
+
+.activities__extra-details {
+    display: flex;
+    flex-direction: column;
+    column-gap: 2.7rem;
+    margin-top: 1rem;
+    margin-bottom: 2.5rem;
+}
+
+.activities__details h5 {
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+    font-family: 'Emilys Candy', cursive;
+}
+
+.activities__details p {
+    line-height: 30px;
+    font-size: 1rem;
+    color: var(--text-color);
+}
+
+
+

@@ -1,0 +1,27 @@
+/* .challenges__card {
+    width: 450px;
+} */
+.card {
+    border: none !important;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+    background-color:rgb(219 253 236) !important;
+    padding: 2rem;
+}
+
+
+.challenges__title {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-family: 'Leckerli One', cursive;
+    cursor: pointer;
+    text-align: center;
+}
+
+.challenges__content button {
+    margin: auto;
+    display: block;
+}
+
+.challenges__desc {
+    margin-bottom: 2rem;
+}

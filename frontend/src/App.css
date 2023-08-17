@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Island+Moments&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&family=Bangers&family=Leckerli+One&family=Poppins:wght@200;300;400;600;800&display=swap');
+
+
+/* @import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Galada&family=Ingrid+Darling&family=Love+Light&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Dancing+Script:wght@400;500;600&family=Emilys+Candy&family=Galada&family=Ingrid+Darling&family=Love+Light&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Dancing+Script:wght@400;500;600;700&family=Emilys+Candy&family=Galada&family=Ingrid+Darling&family=Love+Light&display=swap');
+
+
+/* font-family: 'Arizonia', cursive;
+font-family: 'Bangers', cursive;
+font-family: 'Leckerli One', cursive;
+font-family: 'Poppins', sans-serif; 
+
+
+
+font-family: 'Beau Rivage', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Emilys Candy', cursive;
+font-family: 'Galada', cursive;
+font-family: 'Ingrid Darling', cursive;
+font-family: 'Love Light', cursive;
+*/
+
+
+
+
+:root {
+  /* --primary-color: #3EAEF4; */
+  --primary-color: #04D9D9;
+  --secondary-color: #04d9ab;
+  --heading-color: #0b2727;
+  --text-color: #6e7074;
+  --font-name: "Montserrat", sans-serif;
+  --subtitle-font-name: "Island Moments", cursive;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-name);
+}
+
+section {
+  padding: 50px 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--heading-color);
+}
+
+a {
+  text-decoration: none !important;
+  color: unset;
+}
+
+ul {
+  padding: 0 !important;
+  list-style: none;
+}
+
+li {
+  padding: 0 !important;
+}
+
+.primary__btn {
+  background: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+  border: none !important;
+  border-radius: 50px !important;
+  padding: 0.5rem 1.5rem !important;
+}
+
+.primary__btn a {
+  font-size: 1.1rem;
+  text-decoration: none;
+  color: #fff;
+}
+.primary__btn a:hover {
+  color: inherit;
+}
+.secondary__btn {
+  background-color: transparent !important;
+  padding: 0.5rem 1.5rem !important;
+  border: 1px solid #2dddbd !important;
+  border-radius: 50px !important;
+  font-weight: 500 !important; 
+}
+
+.secondary__btn a {
+  text-decoration: none;
+  font-size: 1.1rem;
+  color: var(--heading-color);
+}
+
+.secondary__btn a:hover {
+  color: inherit;
+}
+
+
+/* ========================= */
+.intro__btn {
+  display: inline-block;
+  color: var(--text-color);
+  /* background: var(--primary-color); */
+  background: rgb(127 238 201);
+  /* border: 2px solid var(--primary-color); */
+  border: 2px solid #56e4c6;
+  padding: 1rem 1.5rem;
+  border-radius: 10px;
+  z-index: 99999 !important;
+}
+
+.intro__btn a {
+  color: #000;
+}
+
+.intro__btn:hover {
+  background-color: transparent;
+  color: var(--primary-color);
+}
+
+/* ========================== */
+.section__subtitle {
+  /* font-family: var(--subtitle-font-name); */
+  font-family: 'Beau Rivage', cursive;
+  width: max-content;
+  padding: 0px 0.5rem;
+  padding-right: 1rem;
+
+  font-weight: 600;
+  font-size: 2.3rem;
+  color: var(--heading-color);
+  letter-spacing: .25rem;
+}

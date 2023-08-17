@@ -1,0 +1,6 @@
+.rarespecies__wallpaper {
+    background: 
+    linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), 
+    url('../assets/images/5545819.jpg') no-repeat center center;
+    background-size: cover;
+}

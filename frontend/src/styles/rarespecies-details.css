@@ -1,0 +1,103 @@
+.rarespecies__wrapper {
+    background: url('../assets/images/registerBg4.jpg') center / cover;
+}
+
+.rarespecies__img {
+    width: 100%;
+    height: 550px;
+    object-fit: cover;
+    border-radius: .5rem;
+    margin-bottom: 2.5rem;
+}
+
+.rarespecies__info {
+    border-radius: 0.5rem;
+    border: 1px solid rgb(0, 219, 146);
+    padding: 2rem;
+}
+
+.rarespecies__characteristics {
+    border-radius: 0.5rem;
+    border: 2px dashed rgb(0, 219, 146);
+    padding: 2rem;
+}
+
+.rarespecies__info h2 {
+    font-size: 2rem;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 600;
+}
+
+.rarespecies__info span {
+    display: flex;
+    align-items: center;
+    column-gap: 0.5rem;
+    font-size: 1rem;
+    color: var(--text-color);
+}
+
+.rarespecies__info span i {
+    color: var(--primary-color);
+    font-size: 1.1rem;
+}
+
+.rarespecies__extra-details {
+    display: flex;
+    flex-direction: column;
+    column-gap: 2.7rem;
+    margin-top: 1rem;
+    margin-bottom: 2.5rem;
+}
+
+.rarespecies__info h5 {
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+    font-family: 'Emilys Candy', cursive;
+}
+
+.rarespecies__info p {
+    line-height: 30px;
+    font-size: 1rem;
+    color: var(--text-color);
+}
+
+
+
+
+.rarespecies__characteristics h4 {
+    margin-bottom: 2rem;
+    font-family: 'Emilys Candy', cursive;
+
+}
+
+
+.characteristic__item {
+    display: flex;
+    align-items: center;
+    column-gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+
+.characteristic__item h5 {
+    font-size: 1rem;
+    margin-bottom: 0;
+
+}
+
+.characteristic__item p {
+    font-size: 0.9rem;
+    color: var(--text-color);
+}
+
+.characteristic__item h6 {
+    font-size: 1.1rem;
+    color: var(--text-color);
+}
+
+.characteristic__item i {
+    font-size: 1.2rem;
+    color: var(--secondary-color);
+}
+

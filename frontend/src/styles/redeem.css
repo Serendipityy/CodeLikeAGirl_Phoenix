@@ -1,0 +1,86 @@
+.RedeemPoint {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #F3FFF8;
+    background: url('../assets/images/background-redeem.png') no-repeat;
+    background-size: 100%;
+    background-position: top;
+ }
+ .RedeemPoint h1 {
+    color: #000000;
+    font-size: 5em;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    text-align: center;
+    
+    position: absolute;
+    top: 100px;
+    
+    
+ }
+.information{
+    position: absolute;
+    left: 500px;
+    top: 300px;
+    background: transparent;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    
+
+}
+
+
+.input-box {
+    position: relative;
+    width: 400px;
+    height: 40px;
+    
+    background-color: #FCF6DB;
+    margin: 60px ;
+    border-radius: 20px;
+
+}
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1.2em;
+    color: #000000;
+    font-weight: 400;
+    padding: 0px 10px 0 15px;
+}
+.input-box label {
+    position: absolute;
+    top: -30px;
+    left: 5px;
+    font-size: 1.1em;
+    color: #162938;
+    font-weight: 200;
+    pointer-events: none;
+    transition: .5s;
+}
+.btn-submit {
+    margin-top: 100px;
+    margin-left: 150px;
+    width: 100px;
+    height:45px;
+    background: #162938;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 700;
+    color: #fff;
+    font-weight: 600;
+    
+}
+.btn-submit:hover {
+    background: #fff;
+    color: #162938;
+}
+

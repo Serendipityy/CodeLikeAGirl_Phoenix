@@ -1,0 +1,81 @@
+.login__section {
+    background: url('../assets/images/Login_bg.jpg') center / cover;
+}
+
+.login__img {
+    width: 50%;
+    text-align: center;
+}
+
+.login__img img {
+    width: 100%;
+    object-fit: contain;
+}
+
+
+.login__container {
+    height: 78vh;
+    /* box-shadow: rgba(33, 146, 86, 0.15) 0px 48px 100px 0px; */
+    margin: auto;
+    overflow: hidden; 
+    box-shadow: 0 7px 50px rgb(114, 255, 192);
+    border-radius: 10px; 
+    /* z-index: 99999; */
+    background-color: #fff;
+
+
+}
+
+.login__header {
+    /* Dịch lên trên 1rem */
+    transform: translateY(-1rem);
+}
+
+.login__form {
+    width: 50%;
+    padding: 50px;
+    /* background: var(--secondary-color); */
+    background: #fff;
+    position: relative;
+}
+
+
+.login__form input {
+    width: 100%;
+    padding: 0.5rem;
+    border: none;
+}
+
+.login__form input:focus {
+    outline: none;
+}
+
+.login__content {
+    border-bottom: 1px solid var(--primary-color);
+}
+
+.login__icon {
+    color: var(--text-color);
+}
+
+.forgotPassword {
+    display: block;
+    text-align: right;
+    font-size: 0.8rem;
+    transform: translateY(-0.75rem);
+}
+
+.auth__btn {
+    background: var(--primary-color) !important;
+    width: 100%;
+}
+
+
+.login__with {
+    padding: 1.5rem;
+}
+
+.login__list a {
+    font-size: 2rem;
+    color: var(--primary-color) !important; 
+}
