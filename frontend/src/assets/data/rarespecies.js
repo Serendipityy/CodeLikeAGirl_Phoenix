@@ -241,6 +241,222 @@ const rarespecies = [
     photo: Img08,
     featured: false,
   },
+
+  {
+    id: "09",
+    title: "Ramondie des Pyrénées/ Ramonda myconi",
+    desc: "In the Pyrenees' rugged terrains, the Ramondie des Pyrénées stands as an emblem of resilience. Beyond its beauty, it's pivotal to the ecosystem, offering nectar to high-altitude pollinators and anchoring the fragile soil with its roots, preventing erosion. Yet, with changing climates and human activity, its delicate role in maintaining mountain biodiversity hangs in the balance.",
+    characteristics: [
+      {
+        feature: "Rosette-forming perennial herb."
+      },
+      {
+        feature: "Leaves are spoon-shaped, green, and covered with fine hairs."
+      },
+      {
+        feature: "Produces purple, five-petalled flowers with a yellow center."
+      },
+      {
+        feature: "Typically grows in rocky limestone crevices."
+      },
+      {
+        feature: "Prefers shaded, cool, and moist locations."
+      },
+      {
+        feature: "Resilient to desiccation; can recover from severe dehydration."
+      },
+      {
+        feature: "Blooms in late spring to early summer."
+      }
+    ],
+    number: "NULL",
+    status: "LEAST CONCERN",
+    habitat: "Forest, Rocky areas (eg. inland cliffs, mountain peaks)",
+    native: "Andorra; France (France (mainland)); Spain (Spain (mainland))",
+    photo: Img01,
+    featured: true,
+  },
+  {
+    id: "10",
+    title: "Juncus heterophyllus",
+    desc: "Gracefully rising from Mediterranean wetlands, Juncus heterophyllus stands sentinel. More than just a plant, it filters water, stabilizes marshland, and provides crucial nesting. But as wetlands shrink from agricultural and urban pressures, the future of this ecological keystone wavers, underscoring the fragility of its habitat.",
+    characteristics: [
+      {
+        feature: "Juncus heterophyllus is a perennial species and Helophyte.",
+      },
+      {
+        feature: "It is an aquatic species of rush that is native to the Mediterranean."
+      },
+      {
+        feature: "It is found in temporarily or permanently flooded places such as marshes, ponds, small streams on acidic substrate, peat or sand."
+      },
+      {
+        feature: "Flowering takes places in spring or summer according to latitude, altitude and hydroperiod."
+      }
+    ],
+    number: "NULL",
+    status: "NOT EVALUATED",
+    habitat: "Wetlands (inland)",
+    native: "Algeria; France (Corsica, France (mainland)); Italy (Sicilia, Italy (mainland), Sardegna); Morocco,....",
+    photo: Img02,
+    featured: true,
+  },
+  {
+    id: "11",
+    title: "Spotted Gentian",
+    desc: "The Spotted Gentian blooms vividly in open meadows, its petals a dance of blue and delicate dots. A magnet for pollinators, it fosters grassland biodiversity. Yet, as land-use shifts, this floral beacon's brilliance dims, signaling a pressing need to cherish and protect our meadow tapestries.",
+    characteristics: [
+      {
+        feature: "perennial herb that can grow up to 0.35 m tall",
+      },
+      {
+        feature: "ovate, petiolate leaves and capsule fruit",
+      },
+      {
+        feature: "bell-shaped, yellow flowers with dark violet spots, flowers from June to July",
+      },
+      {
+        feature: "grows in mountain meadows and pastures at an altitude between 1800 and 2700 m",
+      },
+    ],
+    number: "NULL",
+    status: "LEAST CONCERN",
+    habitat: "Shrubland, Grassland, Rocky areas",
+    native: "Albania; Austria; Bulgaria; Croatia; Czechia; France (France (mainland)); Germany,...",
+    photo: Img03,
+    featured: true,
+  },
+  {
+    id: "12",
+    title: "Pseudolarix amabilis",
+    desc: "In the temperate forests of China, the Golden Larch, or Pseudolarix amabilis, stands tall, its needles turning a striking gold in autumn. This deciduous conifer plays a role in forest health, supporting various fauna with its seeds and shelter. However, habitat loss and logging challenge its regal stance, hinting at the broader threats faced by its native ecosystem.",
+    characteristics: [
+      {
+        feature: "Needles turn bright yellow in autumn before shedding.",
+      },
+      {
+        feature: "The tree's cones are distinctive, being broad and flat, resembling small rosettes.",
+      },
+      {
+        feature: "Bark is often flaky and can peel off in strips, revealing a reddish-brown inner layer.",
+      },
+      {
+        feature: "Grows best in acidic, well-drained soils.",
+      },
+    ],
+    number: "NULL",
+    status: "VULNERABLE",
+    habitat: "Forest",
+    native: "China (Jiangxi, Fujian, Zhejiang, Hunan)",
+    photo: Img04,
+    featured: true,
+  },
+  {
+    id: "13",
+    title: "Pássaras",
+    desc: "From the lush terrains of Madeira, the Pássaras, or Geranium maderense, unveils its vivid pink blooms. Often termed the 'Madeiran Cranesbill', this geranium is not just a spectacle but a beacon for local pollinators, underpinning the island's intricate web of life. Yet, as it thrives, the encroachments of modernity and shifts in weather whisper of the need to safeguard such natural treasures.",
+    characteristics: [
+      {
+        feature: "The largest of the geranium species, producing pink to magenta flowers",
+      },
+      {
+        feature: "Biennial plant that typically flowers in its second year.",
+      },
+      {
+        feature: "Large, deeply divided green leaves form a rosette at the base.",
+      },
+      {
+        feature: "When in full bloom, the plant can reach up to 1.5 meters in height.",
+      },
+      {
+        feature: "Grows well in mild climates and is often used as an ornamental plant in gardens."
+      },
+    ],
+    number: "1-50",
+    status: "CRITICALLY ENDANGERED",
+    habitat: "Marine Coastal/Supratidal",
+    native: "Portugal (Madeira)",
+    photo: Img05,
+    featured: false,
+  },
+  {
+    id: "14",
+    title: "Jurinea fontqueri",
+    desc: "Tucked within the Iberian Peninsula's rocky landscapes, the Jurinea fontqueri emerges, a testament to botanical tenacity. This rare thistle, with its intricate blossoms, supports various pollinators, fostering a biodiverse enclave. Yet, as human activities encroach and climates shift, the delicate dance of the Jurinea and its pollinators becomes increasingly precarious",
+    characteristics: [
+      {
+        feature: "A genus in the Asteraceae family, and members of this genus are generally herbaceous perennials.",
+      },
+      {
+        feature: "They typically grow in temperate regions and can be found in various habitats, including meadows and rocky areas.",
+      },
+    ],
+    number: "2,231",
+    status: "CRITICALLY ENDANGERED",
+    habitat: "Rocky areas (eg. inland cliffs, mountain peaks)",
+    native: "Spain (mainland)",
+    photo: Img06,
+    featured: false,
+  },
+  {
+    id: "15",
+    title: "Limonium spectabile",
+    desc: "Amidst rocky terrains and arid landscapes, the Siempreviva de Guelgue stands resilient, its succulent leaves a testament to nature's ability to adapt. This perennial not only conserves precious water in its surroundings but serves as a refuge for various insects in its habitat. However, its endurance is tested by human encroachment and changing climates, reminding us of the fragile balance of desert ecosystems.",
+    characteristics: [
+      {
+        feature: "Endemic to Teno area of Tenerife",
+      },
+      {
+        feature: "Can grow up to 50 cm",
+      },
+      {
+        feature: "Pinnatisect ovate-lanceolate leaves",
+      },
+      {
+        feature: "Glabrous and apterous panicle inflorescence",
+      },
+      {
+        feature: "Triads or solitary flowers",
+      },
+      {
+        feature: "Intense mauve calyx and white corolla",
+      },
+    ],
+    number: "160",
+    status: "CRITICALLY ENDANGERED",
+    habitat: "Shrubland, Rocky areas",
+    native: "Spain (Canary Is.)",
+    photo: Img07,
+    featured: false,
+  },
+  {
+    id: "16",
+    title: "Cardón de Jandía (Onopordum nogalesii) ",
+    desc: "In the sun-kissed plains of Jandía, the Cardón de Jandía, or Onopordum nogalesii, rises. This thistle, with its protective spines and majestic presence, is a haven for pollinators. Its existence ensures a biodiversity hotspot in an otherwise sparse terrain. But as landscapes transform and human pressures mount, the future of this unique flora hangs in balance, echoing the urgency of conservation.",
+    characteristics: [
+      {
+        feature: "a type of plant in the family Asteraceae. ",
+      },
+      {
+        feature: "Upright biennial with a basal rosette of leaves",
+      },
+      {
+        feature: "Simple or pinnately lobed, grey-hairy leaves",
+      },
+      {
+        feature: "Large, thistle-like, pink or purple flower-heads in summer",
+      },
+      {
+        feature: "Native to southern Europe, northern Africa, the Canary Islands, the Caucasus, and southwest and central Asia",
+      },
+    ],
+    number: "70",
+    status: "CRITICALLY ENDANGERED",
+    habitat: "Shrubland, Rocky areas",
+    native: "Spain (Canary Is.)",
+    photo: Img08,
+    featured: false,
+  },
 ];
 
 export default rarespecies;

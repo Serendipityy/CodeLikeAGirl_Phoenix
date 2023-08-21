@@ -23,7 +23,7 @@ const RareSpeciesCard = ({rarespecies}) => {
                 justify-content-between'>
                     <span className='species__location d-flex align-items-center gap-1'>
                         <i className='ri-map-pin-line'></i> 
-                        {habitat}                 
+                        <span>{habitat} </span>              
                     </span>
                 </div>
 

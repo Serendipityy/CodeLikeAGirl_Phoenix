@@ -2,8 +2,34 @@
 .activities__wallpaper {
     background: 
     linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), 
-    url('../assets/images/—Pngtree—healing\ forest\ and\ deer\ original_4216245.png') no-repeat center center;
+    url('../assets/images/environmentalists-hands-cupping-plants-earth-day-campaign.jpg') no-repeat;
     background-size: cover;
+}
+
+.activities__intro {
+    background: url('../assets/images/intro_bg.jpg') center/cover;
+}
+
+.activities__img-box img{
+    width: calc(100%/3);
+    height: 100%;
+}
+
+.activities__intro-title {
+    font-family: 'Galada', cursive;
+}
+
+.activities__intro-content {
+    padding: 2rem;
+}
+
+.activities__intro-description {
+    line-height: 1.6;
+}
+
+.activities__intro-description span {
+    color: var(--highlight-color);
+    font-weight: 500;
 }
 
 .fundraisings__content{

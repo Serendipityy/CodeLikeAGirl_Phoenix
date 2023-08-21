@@ -1,5 +1,5 @@
 import React from 'react'
-import blogImg1 from '../../assets/images/img-01.jpg' 
+import blogImg1 from '../../assets/images/img-02.jpg'
 import blogImg2 from '../../assets/images/img-02.jpg' 
 import blogImg3 from '../../assets/images/img-03.jpg' 
 import blogImg4 from '../../assets/images/img-04.jpg' 

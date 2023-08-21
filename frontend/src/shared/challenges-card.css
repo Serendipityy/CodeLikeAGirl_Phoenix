@@ -17,6 +17,11 @@
     text-align: center;
 }
 
+.challenges__title a {
+    color: var(--heading-color);
+}
+
+
 .challenges__content button {
     margin: auto;
     display: block;

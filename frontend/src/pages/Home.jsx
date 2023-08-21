@@ -4,7 +4,7 @@ import {Container, Row, Col} from 'reactstrap'
 import Subtitle from '../shared/Subtitle'
 import { Link } from 'react-router-dom'
 import introImg from '../assets/images/homeImg.png'
-import Shapes from '../shared/Shapes'
+// import Shapes from '../shared/Shapes'
 import aboutImg01 from '../assets/images/Environmental-Values-in-Islam.jpg'
 import aboutImg02 from '../assets/images/aboutImg02.jpg'
 import aboutImg03 from '../assets/images/aboutImg03.png'
@@ -19,7 +19,7 @@ const Home = () => {
       <section className='intro__wrapper'>
         <Container>
           <Row>
-            <Col lg='6'>
+            <Col lg='6' md='12'>
               <div className='intro__content'>
                 <div className='intro__subtitle'>
                   <Subtitle subtitle={'Welcome To'} />
@@ -45,7 +45,7 @@ const Home = () => {
               </div>
             </Col>
 
-            <Col lg='6'>
+            <Col lg='6' md='12'>
               <div className='intro__img-box'>
                 <img src={introImg} alt='' />
               </div>
@@ -53,7 +53,7 @@ const Home = () => {
           </Row>
         </Container>
 
-        <Shapes />
+        {/* <Shapes /> */}
 
       </section>
 
@@ -83,10 +83,10 @@ const Home = () => {
                         </h2>
 
                         <p className='about__description'>
-                          We are <span>Phoenix</span> , an alliance of dedicated environmental enthusiasts, technologists, and forward-thinkers united by a common purpose: protecting our planet. Established in May 2023, our diverse team includes Nguyen Huy Hoang (leader), Hoang Thi Khon, Nguyen Thi Kieu Ngan, and Tran Thi Kim Trinh, each contributing their unique skills and perspectives towards this critical mission.
+                          We are <span>Phoenix</span> , an alliance of dedicated environmental enthusiasts, technologists, and forward-thinkers united by a common purpose: <span className='highlight'>protecting our planet.</span> Established in May 2023, our diverse team includes Nguyen Huy Hoang (leader), Hoang Thi Khon, Nguyen Thi Kieu Ngan, and Tran Thi Kim Trinh, each contributing their unique skills and perspectives towards this critical mission.
                           <br />
                           <br />
-                          At Phoenix, we are committed to harnessing the power of technology to encourage active participation in environmental conservation. We've designed an innovative platform where anyone, regardless of their background or expertise, can engage in meaningful actions to preserve our Earth.
+                          At <span>Phoenix</span> , we are committed to harnessing the power of technology to encourage active participation in environmental conservation. We've designed an innovative platform where anyone, regardless of their background or expertise, can engage in meaningful actions to preserve our Earth.
                         </p>
 
                         {/* <div className='about__details grid'>

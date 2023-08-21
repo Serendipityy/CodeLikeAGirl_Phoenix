@@ -5,8 +5,12 @@ import CommonSection from '../shared/CommonSection'
 import '../styles/activities.css'
 import '../shared/ActivitiesCard'
 import CurrentCampaignList from '../components/Activities/CurrentCampaignList'
-import FundraisingCampaign from '../components/Activities/FundraisingCampaign'
-import activities from '../assets/data/activities'
+// import FundraisingCampaign from '../components/Activities/FundraisingCampaign'
+// import activities from '../assets/data/activities'
+import activitiesImg01 from '../assets/images/group-volunteers-nature.jpg'
+import activitiesImg02 from '../assets/images/environment-volunteer-concept.jpg'
+import activitiesImg03 from '../assets/images/kids-saving-environment.jpg'
+
 import img from '../assets/images/3459610.jpg'
 const Activities = () => {
   return (
@@ -14,6 +18,34 @@ const Activities = () => {
       <div className='activities__wallpaper'>
         <CommonSection title={"Our Current Campaigns"} />
       </div>
+    
+      <section className='activities__intro'>
+        <Container>
+          <Row>
+          <Col lg='6'>
+        <div className='activities__img-box d-flex'>
+          <img src={activitiesImg01} alt='' />
+          <img src={activitiesImg03} alt='' />         
+          <img src={activitiesImg02} alt='' />
+        </div>      
+        </Col>
+
+        <Col lg='6'>
+          <div className='activities__intro-content'>
+              <h2 className='activities__intro-title mb-4'>
+                  Welcome to visit our Activities
+              </h2>
+              <p className='activities__intro-description'>
+              Join us in exploring local eco-activities and connecting with like-minded, passionate individuals. Discover events with detailed descriptions, participant counts, and enticing rewards. 
+              <br />
+              <span> Dive in with us, let's nurture our planet and community together! </span>
+              </p>
+          </div>
+        </Col>
+          </Row>
+        </Container>
+        
+      </section>
       
       {/* ============= activities section ============ */}
       <section>

@@ -92,6 +92,11 @@ const Header = () => {
         return () =>
           document.removeEventListener('click', handleClickOutsideSubnav);
       }, [showSubnav]);
+
+
+    //   menu
+
+
       
   return (
 
@@ -162,6 +167,8 @@ const Header = () => {
                         <span className='mobile__menu'>
                             <i className='ri-menu-line'></i>
                         </span>
+                        
+                        
                     </div>
                 </div>
             </Row>

@@ -1,5 +1,6 @@
 import React from 'react'
 import './blogbar.css'
+import exploreImg from '../../assets/images/explorect.png'
 
 const Blogbar = () => {
     return (
@@ -7,12 +8,12 @@ const Blogbar = () => {
             <div className='blogbarItem'>
                 <span className='blogbarTitle'>EXPLORE</span>
                 <img
-                    src="https://e1.pxfuel.com/desktop-wallpaper/620/732/desktop-wallpaper-aesthetic-iphone-minimal-beige-aesthetic-phone-beige-thumbnail.jpg"
+                    src={exploreImg}
                     alt=""
                 />
                 <p>
-                    Laboris sunt aute cupidatat velit magna velit ullamco dolore mollit
-                    amet ex esse.Sunt eu ut nostrud id quis proident.              
+                    Let's dive deep into the pulse of the environment with us. Uncover the latest <span>'News'</span> insights or journey with <span>'Rare Species'</span> to meet unique animals, understanding their habitats and vital roles. <span>Embark on this adventure and embrace the wonders of our planet!</span>
+
                 </p>
             </div>
     

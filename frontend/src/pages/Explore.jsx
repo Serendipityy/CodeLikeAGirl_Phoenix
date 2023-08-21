@@ -5,7 +5,6 @@ import '../styles/explore.css'
 import Blogs from '../components/blogs/Blogs'
 import { Container, Row, Col } from 'reactstrap'
 import Blogbar from '../components/blog-bar/Blogbar'
-
 const Explore = () => {
   return (
     <>
@@ -17,6 +16,7 @@ const Explore = () => {
         <Container>
           <Row>
             <Col lg='9' className='explore__blogs'>
+
               <Blogs />
             </Col>
 
