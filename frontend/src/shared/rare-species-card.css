@@ -30,7 +30,7 @@
     border-radius: 3px 0 0 0;
 }
 .card__top {
-    height: 50px;
+    height: 40px;
 }
 
 .card__top span i {
@@ -46,14 +46,20 @@
     color: var(--heading-color);
     font-weight: 500;
     font-size: 0.9rem;
+
+
 }
 
-/* .species__location p {
+
+.species__location span {
+        /* Khi nội dung text dài quá thì rút ngắn dưới dạng ... */
     overflow: hidden;
     text-overflow: ellipsis;
-    white-space: nowrap;
-    width: 250px;
-} */
+    display: -webkit-box;
+    /* Hiện 2 dòng */
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
 
 .species__rating i,
 .species__location i {

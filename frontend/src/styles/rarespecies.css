@@ -1,6 +1,64 @@
 .rarespecies__wallpaper {
     background: 
-    linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), 
-    url('../assets/images/5545819.jpg') no-repeat center center;
+    /* linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),  */
+    /* url('../assets/images/wwd2022-smcard-1600x900.jpeg') no-repeat center ; */
+    url('../assets/images/GG0220_Conservation_01-1100x397.jpg') no-repeat center ;
+    height: 100% !important;
     background-size: cover;
+}
+
+.rare__title {
+    font-family: 'Galada', cursive;
+    font-size: 2.5rem;
+}
+
+.rare__intro {
+    background: url('../assets/images/intro_bg.jpg') center/cover;
+}
+
+.rare__list {
+    background: url('../assets/images/homepageBg1.jpg') center/cover;
+}
+
+.rare__img-box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    padding: 2rem;
+}
+
+.rare__img {
+    transition: all .3s ease;
+}
+
+.rare__img:hover {
+    transform: scale(1.2);
+}
+
+.rare__img:first-child {
+    border-radius: 0 1rem;
+}
+
+.rare__img:last-child {
+    border-radius: 0 1rem;
+}
+.rare__img:nth-child(2){
+    border-radius: 0 1rem;
+}
+
+.rare__img:nth-child(3) {
+    border-radius: 0 1rem;
+}
+
+
+.extra__intro {
+    padding: 1.5rem;
+    border: 2px dashed var(--highlight-color);
+}
+
+.extra__intro p {
+    font-weight: 500;
+    font-size: 1.2rem;
+    font-style: italic;
+    color: var(--highlight-color);
 }

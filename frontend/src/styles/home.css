@@ -7,13 +7,14 @@
 .intro__content {
     padding: 30px 0;
 }
+
 .intro__content h1 {
     font-size: 5.2rem;
     font-weight: 600;
     margin-top: 1rem;
     margin-bottom: 2rem;
     /* color: var(--heading-color); */
-    color: rgb(22, 178, 110);
+    color: var(--highlight-color);
 
     /* font-family: 'Galada', cursive */
     font-family: 'Love Light', cursive;
@@ -22,15 +23,12 @@
 }
 
 .intro__content h1 .highlight {
-    /* color: var(--secondary-color); */
-    /* color: rgb(22, 178, 110); */
     color: var(--heading-color);
 
 }
 
 .intro__content p {
-    font-size: 1.1rem;
-    color: var(--text-color);
+    /* color: var(--text-color); */
     line-height: 2rem;
 }
 
@@ -154,10 +152,16 @@
     font-family: 'Love Light', cursive;
     font-size: 1.6rem;
     /* color: rgb(165, 63, 238); */
-    color: rgb(22, 178, 110);
+    color: var(--highlight-color);
 
     text-shadow: 1px 1px #ffffff;
+}
 
+.about__description .highlight {
+    text-transform: uppercase;
+    font-family: var(--font-name);
+    font-size: 1.1rem;
+    font-weight: 600;
 }
 
 

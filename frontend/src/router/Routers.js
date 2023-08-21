@@ -23,6 +23,7 @@ const Routers = () => {
         <Route path='/' element={<Navigate to='/home'/>} />
         <Route path='/home' element={<Home/>} />
         <Route path='/explore' element={<Explore />} />
+
         <Route path='explore/rare-species' element={<RareSpecies/>} />
         <Route path='explore/rare-species/:id' element={<RareSpeciesDetails/>} />
         <Route path='/login' element={<Login/>} />

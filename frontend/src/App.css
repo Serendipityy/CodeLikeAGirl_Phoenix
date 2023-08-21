@@ -1,26 +1,13 @@
-@import url("https://fonts.googleapis.com/css2?family=Island+Moments&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Arizonia&family=Bangers&family=Leckerli+One&family=Poppins:wght@200;300;400;600;800&display=swap');
-
-
-/* @import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Galada&family=Ingrid+Darling&family=Love+Light&display=swap'); */
-/* @import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Dancing+Script:wght@400;500;600&family=Emilys+Candy&family=Galada&family=Ingrid+Darling&family=Love+Light&display=swap'); */
-
-@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Dancing+Script:wght@400;500;600;700&family=Emilys+Candy&family=Galada&family=Ingrid+Darling&family=Love+Light&display=swap');
-
-
-/* font-family: 'Arizonia', cursive;
-font-family: 'Bangers', cursive;
-font-family: 'Leckerli One', cursive;
-font-family: 'Poppins', sans-serif; 
-
-
-
+/* @import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Bricolage+Grotesque:opsz,wght@10..48,200;10..48,300;10..48,400;10..48,500&family=Dancing+Script:wght@400;500;600;700&family=Emilys+Candy&family=Galada&family=Ingrid+Darling&family=Love+Light&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Bricolage+Grotesque:opsz,wght@10..48,200;10..48,300;10..48,400;10..48,500&family=Dancing+Script:wght@400;500;600;700&family=Emilys+Candy&family=Galada&family=Ingrid+Darling&family=Leckerli+One&family=Love+Light&display=swap');
+/* 
 font-family: 'Beau Rivage', cursive;
+font-family: 'Bricolage Grotesque', sans-serif;
 font-family: 'Dancing Script', cursive;
 font-family: 'Emilys Candy', cursive;
 font-family: 'Galada', cursive;
 font-family: 'Ingrid Darling', cursive;
+font-family: 'Leckerli One', cursive;
 font-family: 'Love Light', cursive;
 */
 
@@ -32,9 +19,11 @@ font-family: 'Love Light', cursive;
   --primary-color: #04D9D9;
   --secondary-color: #04d9ab;
   --heading-color: #0b2727;
+  --highlight-color: rgb(22, 178, 110);
   --text-color: #6e7074;
-  --font-name: "Montserrat", sans-serif;
-  --subtitle-font-name: "Island Moments", cursive;
+  --font-name: 'Bricolage Grotesque', sans-serif;
+  --subtitle-font-name: 'Beau Rivage', cursive;
+
 }
 
 * {
@@ -44,7 +33,9 @@ font-family: 'Love Light', cursive;
 }
 
 body {
-  font-family: var(--font-name);
+  /* font-family: var(--font-name); */
+  font-family: var(--font-name) !important;
+  font-size: 1.1rem !important;
 }
 
 section {
@@ -132,14 +123,27 @@ li {
 
 /* ========================== */
 .section__subtitle {
-  /* font-family: var(--subtitle-font-name); */
-  font-family: 'Beau Rivage', cursive;
+  font-family: var(--subtitle-font-name);
   width: max-content;
   padding: 0px 0.5rem;
   padding-right: 1rem;
-
   font-weight: 600;
   font-size: 2.3rem;
   color: var(--heading-color);
   letter-spacing: .25rem;
+}
+
+
+/* ============= CUSTOM SCROLL-BAR ============ */
+
+::-webkit-scrollbar {
+  width: 10px;
+  background: #ffffff;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 2em;
+  /* background: linear-gradient(-45deg, #E250E5, #4B50E6,#E250E5, #4B50E6); */
+  background: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+  
 }

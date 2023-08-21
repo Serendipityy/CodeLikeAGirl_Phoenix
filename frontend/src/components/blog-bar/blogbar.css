@@ -1,8 +1,6 @@
 .blogbar {
-    /* flex: 3; */
-    margin: 20px;
     padding-bottom: 30px;
-    background-color: #fdfbfb;
+    background: url('../../assets/images/registerBg3.jpg') center/cover;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -21,9 +19,7 @@
     width: 80%;
     border-top: 1px solid #a7a4a4;
     border-bottom: 1px solid #a7a4a4;
-    font-family: 'Varela Round', sans-serif;
-    font-size: 12px;
-    color: #222;
+    color: var(--highlight-color);
     font-weight: 600;
     line-height: 20px;
     text-align: center;
@@ -38,6 +34,11 @@
 
 .blogbarItem > p {
     padding: 30px;
+}
+
+.blogbarItem > p > span {
+    color: var(--highlight-color);  
+    font-weight: 600;  
 }
 
 .blogbarList {
