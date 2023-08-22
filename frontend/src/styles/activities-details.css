@@ -69,4 +69,8 @@
 }
 
 
-
+@media only screen and (max-width: 768px) {
+    .activities__introduction {
+        margin-bottom: 2rem;
+    }
+}
