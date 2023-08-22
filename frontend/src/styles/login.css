@@ -112,3 +112,25 @@
         padding: 0.5rem 0.75rem !important;
     }
 }
+
+
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .login__img {
+        display: block;
+        width: 60%;
+    }
+
+    .login__container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        height: 55vh;
+
+    }
+
+    .login__form {
+        padding: 5rem;
+    }
+
+} 
