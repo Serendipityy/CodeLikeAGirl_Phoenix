@@ -91,3 +91,24 @@
 .createAccount {
     font-size: 0.9rem;
 }
+
+
+
+@media only screen and (max-width: 768px) {
+    .login__container {
+        display: flex;
+        flex-direction: column;
+    }
+    .login__img {
+        display: none;
+    }
+
+    .login__form {
+        width: 100%;
+        padding: 0 2rem;
+    }
+    
+    .createAccount .createBtn{
+        padding: 0.5rem 0.75rem !important;
+    }
+}
