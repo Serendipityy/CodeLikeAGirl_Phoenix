@@ -57,7 +57,7 @@ const Footer = () => {
     <footer className='footer'>
       <Container>
         <Row>
-          <Col lg='4' className='firstCol'>
+          <Col lg='4' md='9' sm='12' className='firstCol'>
             <div className='logo d-flex align-items-center gap-3'>
               <img src={logo} alt='' />
               <h1>Phoenix</h1>
@@ -82,7 +82,7 @@ const Footer = () => {
             </ul>
           </Col>
 
-          <Col lg='2'>
+          <Col lg='2' md='3' sm='12' className='mb-5'>
             <h4 className='footer__link-title'>Quick Links</h4>
 
             <ListGroup className='footer__quick-links'>
@@ -98,7 +98,7 @@ const Footer = () => {
             </ListGroup>
           </Col>
 
-          <Col lg='3'>
+          <Col lg='3' md='4' sm='12' className='mb-5'>
             <h4 className='footer__link-title'>Resources</h4>
             <ListGroup className='footer__quick-links'>
               {
@@ -113,7 +113,7 @@ const Footer = () => {
 
 
 
-          <Col lg='3'>
+          <Col lg='3' md='8' sm='12'>
             <h4 className='footer__link-title'>Newsletter</h4>
 
             <p className='footer__link-description'>
