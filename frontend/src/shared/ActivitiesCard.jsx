@@ -6,7 +6,7 @@ import './activities-card.css'
 
 const ActivitiesCard = ({activities}) => {
 
-    const {id, title, desc, city, people, photo} = activities
+    const {id, title, city, people, photo} = activities
 
     return (
         <>
@@ -24,8 +24,14 @@ const ActivitiesCard = ({activities}) => {
 
                 <div className='activities__content'>
                     <div className='activities__info d-flex justify-content-between'>
-                        <h5>{city}</h5>
-                        <h5>{people} participant</h5>
+                        <div className='d-flex gap-1'>
+                            <i className='ri-map-pin-line'></i> 
+                            <p>{city}</p>
+                        </div>
+                        <div className='d-flex gap-1'>
+                            <i className="ri-group-line"></i>
+                            <p>{people} participant</p>
+                        </div>
                     </div>
                     <button className='btn primary__btn'>
                         <Link to={`/activities/${id}`}>More Details</Link>

@@ -5,13 +5,11 @@ import CommonSection from '../shared/CommonSection'
 import '../styles/activities.css'
 import '../shared/ActivitiesCard'
 import CurrentCampaignList from '../components/Activities/CurrentCampaignList'
-// import FundraisingCampaign from '../components/Activities/FundraisingCampaign'
+import FundraisingCampaign from '../components/Activities/FundraisingCampaign'
 // import activities from '../assets/data/activities'
-import activitiesImg01 from '../assets/images/group-volunteers-nature.jpg'
-import activitiesImg02 from '../assets/images/environment-volunteer-concept.jpg'
-import activitiesImg03 from '../assets/images/kids-saving-environment.jpg'
+import MasonryImagesGallery from '../components/Activities/ImageGallery/MasonryImagesGallery'
+import img from '../assets/images/concept-plant-glass-bulb.jpg'
 
-import img from '../assets/images/3459610.jpg'
 const Activities = () => {
   return (
     <>
@@ -23,12 +21,11 @@ const Activities = () => {
         <Container>
           <Row>
           <Col lg='6'>
-        <div className='activities__img-box d-flex'>
-          <img src={activitiesImg01} alt='' />
-          <img src={activitiesImg03} alt='' />         
-          <img src={activitiesImg02} alt='' />
-        </div>      
-        </Col>
+            <div className='activities__intro-gallery'>
+
+              <MasonryImagesGallery />
+            </div>
+          </Col>
 
         <Col lg='6'>
           <div className='activities__intro-content'>
@@ -48,7 +45,7 @@ const Activities = () => {
       </section>
       
       {/* ============= activities section ============ */}
-      <section>
+      <section className='currentCampaign__wrapper'>
         <Container>
           <Row>
             <Col lg='12' className='mb-5'>
@@ -72,35 +69,32 @@ const Activities = () => {
     </section> */}
 
     <section className='fundraisings__wrapper'>
-        <Container className='d-flex align-items-center'>
-          <div className='fundraisings__subtitle'>
+        <Container>
+          <Row>
+          <Col lg='4' className='fundraisings__subtitle'>
               <Subtitle subtitle={'Our fundraising campaigns'} />
-          </div>
+          </Col>
 
-          {/* <div className='fundraisings__content'>
-              {activities.map(({photo, title, desc}, index) => {
-                  return (
-                    <div className='fundraisings__item' key={index}>
-                        <img src={photo} className='fundraising__img' alt='' />
-
-                        <h3 className='fundraising__title'>{title}</h3>
-                        <p className='fundraising__description'>{desc}</p>
-
-                    </div>
-                  )
-              })}
-          </div> */}
+          <Col lg='8'>
+          <FundraisingCampaign />
+          </Col>
+          </Row>
+          
         </Container>
     </section>
       {/* ================================================ */}
     
     <section className='extra'>
         <div className='extra__info'>
-            <h2>We Take Action. To Make Better Changes</h2>
-            <p>This is description</p>
-            <div className='extra__icon'>
-
-            </div>
+          <Container>
+            <Row>
+            <h1 className='mb-4'>We Take Action. To Make Better Changes</h1>
+            <p>Join us at Phoenix as we strive to rise from the ashes of environmental degradation and build a sustainable future.  
+              <br />
+              Together, we can protect our home.</p>
+            </Row>
+          </Container>
+            
         </div>  
 
         <div className='extra__img'>

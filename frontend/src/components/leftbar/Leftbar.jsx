@@ -1,8 +1,13 @@
 
 import React from 'react'
 import './leftbar.css'
-import {MdRssFeed} from 'react-icons/md'
+import { MdRssFeed} from 'react-icons/md'
+import {AiFillHome} from 'react-icons/ai'
+import {IoIosPeople} from 'react-icons/io'
+import {BsFillCalendarEventFill} from 'react-icons/bs'
+import {FaLayerGroup} from 'react-icons/fa'
 import avt from '../../assets/images/3459610.jpg'
+
 const Leftbar = () => {
   return (
     <div className='leftbar'>
@@ -12,14 +17,14 @@ const Leftbar = () => {
             src={avt}
             alt='user avatar'
           />
-          <span>user name</span>
+          <span>Serendipity</span>
         </div>
 
         <hr className='leftbar__hr' />
 
         <ul className='leftbar__menu__list'>
           <li className='leftbar__menu__item'>
-            <MdRssFeed className='leftbar__menu__icon' />
+            <AiFillHome className='leftbar__menu__icon' />
             <span className='leftbar__menu__text'>Home</span>
           </li>
 
@@ -29,17 +34,17 @@ const Leftbar = () => {
           </li>
 
           <li className='leftbar__menu__item'>
-            <MdRssFeed className='leftbar__menu__icon' />
+            <IoIosPeople className='leftbar__menu__icon' />
             <span className='leftbar__menu__text'>People</span>
           </li>
 
           <li className='leftbar__menu__item'>
-            <MdRssFeed className='leftbar__menu__icon' />
+            <BsFillCalendarEventFill className='leftbar__menu__icon' />
             <span className='leftbar__menu__text'>Event</span>
           </li>
 
           <li className='leftbar__menu__item'>
-            <MdRssFeed className='leftbar__menu__icon' />
+            <FaLayerGroup className='leftbar__menu__icon' />
             <span className='leftbar__menu__text'>Group</span>
           </li>
         </ul>

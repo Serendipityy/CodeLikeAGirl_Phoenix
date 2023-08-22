@@ -1,22 +1,22 @@
 .activities__wrapper {
-    background: url('../assets/images/registerBg4.jpg') center / cover;
+    background: url('../assets/images/homepageBg.jpg') center / cover;
 }
-.activities__intro {
+.activities__introduction {
     display: flex;
     flex-direction: column;
 }
 
-.activities__intro button {
+.activities__introduction button {
     border-radius: 0.5rem !important;
     padding: 1rem !important;
 }
 
-.activities__intro .activities__img {
+.activities__introduction .activities__img {
     width: 100%;
     height: 550px;
     object-fit: cover;
-    border-radius: .5rem;
-    margin-bottom: 2.5rem;
+    /* border-radius: .5rem; */
+    margin-bottom: 2rem;
 }
 
 .activities__content .activities__details {
@@ -42,7 +42,6 @@
     align-items: center;
     column-gap: 0.5rem;
     font-size: 1rem;
-    color: var(--text-color);
 }
 
 .activities__info span i {
@@ -67,7 +66,6 @@
 .activities__details p {
     line-height: 30px;
     font-size: 1rem;
-    color: var(--text-color);
 }
 
 

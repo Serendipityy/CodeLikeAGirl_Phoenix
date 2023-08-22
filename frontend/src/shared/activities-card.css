@@ -54,7 +54,6 @@
 .activities__title {
     margin-top: 1rem;
     margin-bottom: 1.75rem;
-    font-size: 1.1rem;
     font-family: 'Leckerli One', cursive;
     cursor: pointer;
     text-align: center;
@@ -70,17 +69,6 @@
     color: var(--secondary-color);
 }
 
-.card__bottom h5 {
-    color: var(--secondary-color);
-    font-size: 1.1rem;
-    font-weight: 700;
-}
-
-.card__bottom h5 span {
-    font-weight: 500;
-    color: var(--text-color);
-    font-size: 0.8rem;
-}
 
 .booking__btn {
     background: var(--secondary-color) !important;
@@ -103,4 +91,8 @@
     display: flex;
     flex-direction: column;
     gap: 1.75rem;
+}
+
+.activities__info i {
+    color: var(--primary-color);
 }

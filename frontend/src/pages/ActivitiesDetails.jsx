@@ -21,7 +21,7 @@ const ActivitiesDetails = () => {
       <Container>
         <Row>
           <Col lg='6'>
-            <div className='activities__intro'>
+            <div className='activities__introduction'>
               <img  className='activities__img' src={photo} alt='' />
               <button className='btn primary__btn'>Get Involve</button>
             </div>           
