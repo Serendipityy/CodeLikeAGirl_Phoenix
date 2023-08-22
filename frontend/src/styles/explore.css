@@ -19,3 +19,20 @@
     gap: 4rem;
 }
 
+
+@media only screen and (max-width: 768px)  {
+    .explore__blogs {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .explore__blogs {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 4rem;
+    }
+} 
