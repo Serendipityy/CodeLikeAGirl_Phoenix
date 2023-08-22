@@ -49,6 +49,7 @@
 
 .leftbar__menu__icon {
     margin-right: .5rem;
+    color: var(--secondary-color);
 }
 
 .leftbar__group__item {

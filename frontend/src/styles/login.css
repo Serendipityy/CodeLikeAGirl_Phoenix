@@ -23,12 +23,11 @@
     /* z-index: 99999; */
     background-color: #fff;
 
-
 }
 
-.login__header {
-    /* Dịch lên trên 1rem */
-    transform: translateY(-1rem);
+.login__header h2{
+    font-family: 'Dancing Script', cursive;
+    font-weight: 600;
 }
 
 .login__form {
@@ -54,6 +53,10 @@
     border-bottom: 1px solid var(--primary-color);
 }
 
+.login__content input {
+    font-size: 1rem;
+}
+
 .login__icon {
     color: var(--text-color);
 }
@@ -63,6 +66,7 @@
     text-align: right;
     font-size: 0.8rem;
     transform: translateY(-0.75rem);
+    color: var(--primary-color);
 }
 
 .auth__btn {
@@ -75,7 +79,15 @@
     padding: 1.5rem;
 }
 
+.login__with span {
+    font-size: 1rem;
+}
+
 .login__list a {
     font-size: 2rem;
     color: var(--primary-color) !important; 
+}
+
+.createAccount {
+    font-size: 0.9rem;
 }

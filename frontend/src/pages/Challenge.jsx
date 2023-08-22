@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 import img from '../assets/images/3710677.png'
 import '../styles/challenge.css'
 import ChallengesList from '../components/Challenges/ChallengesList'
+import leftImg from '../assets/images/5497386.jpg'
 
 const Challenge = () => {
 
@@ -70,21 +71,28 @@ const Challenge = () => {
         <Row>
           <Col lg='4'>
             <h1 className='challenge__type'>Quiz</h1>
-            <div className='quiz__wrapper'>
-              <ul className='quiz__list'>
-                <li className='quiz__item'>
-                  <Link to='#'>Quiz 1</Link>
-                </li>
-                <li className='quiz__item'>
-                  <Link to='#'>Quiz 2</Link>
-                </li>
-                <li className='quiz__item'>
-                  <Link to='#'>Quiz 3</Link>
-                </li>
-                <li className='quiz__item'>
-                  <Link to='#'>Quiz 4</Link>
-                </li>
-              </ul>
+            <div className='left'>
+              <div className='quiz__wrapper'>
+                <ul className='quiz__list'>
+                  <li className='quiz__item'>
+                    <Link to='#'>Quiz 1</Link>
+                  </li>
+                  <li className='quiz__item'>
+                    <Link to='#'>Quiz 2</Link>
+                  </li>
+                  <li className='quiz__item'>
+                    <Link to='#'>Quiz 3</Link>
+                  </li>
+                  <li className='quiz__item'>
+                    <Link to='#'>Quiz 4</Link>
+                  </li>
+                </ul>
+
+              </div>
+
+              <div className='img__wrapper'>
+                  <img src={leftImg} alt='' />
+              </div>
 
             </div>
           </Col>
