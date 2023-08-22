@@ -111,8 +111,7 @@
         right: 0;
         width: 250px;
         height: 100%;
-        /* background: #343444; */
-        background: url('../../assets/images/intro_bg.jpg') bottom;
+        background: url('../../assets/images/intro_bg.jpg') center/cover;
         z-index: 333333;
         flex-direction: column;
         padding-top: 40px;
@@ -122,14 +121,4 @@
         display: block;
     }
 
-    /* .btn {
-        padding: 4px 25px !important;
-    }
-
-    .btn a {
-        font-size: 0.7rem !important;
-    } */
 }
-
-
-
