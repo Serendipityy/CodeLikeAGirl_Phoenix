@@ -95,6 +95,10 @@ const Header = () => {
 
 
     //   menu
+      // Bấm vào icon menu thì hiện menu list
+    const menuRef = useRef(null)
+
+    const toggleMenu = () => menuRef.current.classList.toggle('active__menu')
 
 
       
@@ -112,7 +116,7 @@ const Header = () => {
                     {/* ====================== */}
 
                     {/* ========= menu ========  */}
-                    <div className='navigation'>
+                    <div className='navigation' ref={menuRef} onClick={toggleMenu}>
                         <ul className='menu d-flex align-items-center
                         gap-5'>
                             {
@@ -165,7 +169,7 @@ const Header = () => {
 
                         {/* Trên mobile */}
                         <span className='mobile__menu'>
-                            <i className='ri-menu-line'></i>
+                            <i className='ri-menu-line' onClick={toggleMenu}></i>
                         </span>
                         
                         
