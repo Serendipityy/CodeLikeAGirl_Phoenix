@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import '../styles/news.css'
 import {Container, Row, Col} from 'reactstrap'
+import {BsSearchHeartFill} from 'react-icons/bs'
 
 const News = () => {
   // define states
@@ -10,7 +11,7 @@ const News = () => {
   const [page, setPage] = useState(1);
   const [isLoading, setIsLoading] = useState(true);
   const [isSearchLoading, setIsSearchLoading] = useState(true);
-  const [searchQuery, setSearchQuery] = useState('bitcoin');
+  const [searchQuery, setSearchQuery] = useState('search news');
   const [activeLiCategory, setActiveLiCategory] = useState(null);
   const [activeLiCountry, setActiveLiCountry] = useState(null);
   const [category, setCategory] = useState(() => {
@@ -125,19 +126,19 @@ const News = () => {
     // going to define structure
     <>
     <section className='news__container'>
-      <div className='news__header d-flex flex-column align-items-center'>
-        <h1>World News Center</h1>
+      <div className='news__header'>
+        <h1>Environment News Center</h1>
 
-        <div className='d-flex align-items-center' value={country} onClick={handleCountryChange}>
+        {/* <div className='d-flex align-items-center' value={country} onClick={handleCountryChange}>
             <ul className='d-flex flex-row gap-4'>
                 <li className={`${activeLiCountry === document.querySelector('ul.country li:nth-child(1)') }`} value='us'>United State</li>
                 <li className={`${activeLiCountry === document.querySelector('ul.country li:nth-child(2)') }`} value='gb'>United Kingdom</li>
                 <li className={`${activeLiCountry === document.querySelector('ul.country li:nth-child(3)') }`} value='ca'>Canada</li>
                 <li className={`${activeLiCountry === document.querySelector('ul.country li:nth-child(4)') }`} value='au'>Australia</li>
             </ul>
-        </div>
+        </div> */}
 
-        <div className='d-flex align-items-center' value={category} onClick={handleCategoryChange}>
+        {/* <div className='d-flex align-items-center' value={category} onClick={handleCategoryChange}>
             <ul className='d-flex flex-row gap-4'>
                 <li className={`${activeLiCategory === document.querySelector('ul.country li:nth-child(1)') }`} value='general'>General</li>
                 <li className={`${activeLiCategory === document.querySelector('ul.country li:nth-child(2)') }`} value='bussiness'>Business</li>
@@ -147,7 +148,19 @@ const News = () => {
                 <li className={`${activeLiCategory === document.querySelector('ul.country li:nth-child(6)') }`} value='sports'>Sports</li>
                 <li className={`${activeLiCategory === document.querySelector('ul.country li:nth-child(7)') }`} value='technology'>Technology</li>
             </ul>
-        </div>
+        </div> */}
+
+
+          <div className='news__category d-flex align-items-center' value={category} onClick={handleCategoryChange}>
+            <ul>
+                <li className={`${activeLiCategory === document.querySelector('ul.country li:nth-child(1)') }`} value='general'>General</li>
+                <li className={`${activeLiCategory === document.querySelector('ul.country li:nth-child(2)') }`} value='air'>Air</li>
+                <li className={`${activeLiCategory === document.querySelector('ul.country li:nth-child(3)') }`} value='soil'>Soil</li>
+                <li className={`${activeLiCategory === document.querySelector('ul.country li:nth-child(4)') }`} value='water'>Water</li>
+                <li className={`${activeLiCategory === document.querySelector('ul.country li:nth-child(5)') }`} value='biodiversity'>Biodiversity</li>
+                <li className={`${activeLiCategory === document.querySelector('ul.country li:nth-child(6)') }`} value='sports'>Climate Change</li>
+            </ul>
+          </div>
       </div>
 
 
@@ -200,7 +213,7 @@ const News = () => {
 
 
             <Col lg='3' className='search__wrapper'>
-              <div>
+              <div className='search__new'>
                 <form onSubmit={handleSearchSubmit}>
                   <div className='search__form'>
                     <input
@@ -209,10 +222,12 @@ const News = () => {
                       placeholder='search news articles...'
                       onChange={(e) => setSearchQuery(e.target.value)}
                     />
-                    <button className='btn'>Search</button>
+                    <BsSearchHeartFill className='search__icon' />
+                    {/* <button className='btn secondary__btn'>Search</button> */}
                   </div>
                 </form>
 
+                <div>
                 {isSearchLoading ? (
                   <div>
                     ...??
@@ -242,6 +257,9 @@ const News = () => {
                   }
                   </>
                 )}
+                </div>
+
+
               </div>
             </Col>
           </Row>

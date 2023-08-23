@@ -1,3 +1,41 @@
+.news__container {
+    background: url('../assets/images/homepageBg1.jpg');
+}
+
+.news__header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+
+.news__header h1 {
+    font-family: 'Emilys Candy', cursive;
+    font-weight: 600;
+    color: var(--highlight-color);
+    text-shadow: 2px 2px #fff;
+
+}
+
+.news__category {
+    margin-bottom: 4rem;
+    padding: 1rem;
+    border-top: 2px dashed var(--highlight-color);
+    border-bottom: 2px dashed var(--highlight-color);
+
+}
+.news__category ul {
+    display: flex;
+    align-self: center;
+    gap: 3rem;
+    font-weight: 500;
+    font-size: 1.2rem;
+    color: var(--text-color);
+    margin-bottom: 0;
+}
+
+
 .news__content-main {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -12,4 +50,33 @@
 
 .search__news img {
     width: 100%;
+}
+
+.search__form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    gap: 1rem;
+}
+
+.search__form input {
+    width: 100%;
+    padding: .25rem;
+    border-radius: .5rem;
+    border-color: var(--highlight-color);
+    /* font-size: 0.9rem; */
+    color: var(--text-color);
+}
+
+
+.search__new {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem   ;
+}
+
+.search__icon {
+    color: var(--highlight-color);
+    font-size: 2rem;
 }
