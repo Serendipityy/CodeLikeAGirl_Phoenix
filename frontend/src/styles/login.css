@@ -98,36 +98,25 @@
     .login__container {
         display: flex;
         flex-direction: column;
-<<<<<<< HEAD
         height: 80%;
     }
 
-=======
-    }
->>>>>>> d1d804d5ac3c4fc8ef35b788bcb10982f7021885
     .login__img {
         display: none;
     }
 
     .login__form {
         width: 100%;
-<<<<<<< HEAD
         padding: 2rem;
-=======
-        padding: 0 2rem;
->>>>>>> d1d804d5ac3c4fc8ef35b788bcb10982f7021885
     }
     
     .createAccount .createBtn{
         padding: 0.5rem 0.75rem !important;
     }
-<<<<<<< HEAD
 
     .login__content input {
         font-size: 0.9rem;
     }
-=======
->>>>>>> d1d804d5ac3c4fc8ef35b788bcb10982f7021885
 }
 
 
@@ -143,7 +132,6 @@
         flex-direction: row;
         align-items: center;
         height: 55vh;
-<<<<<<< HEAD
     }
 
     .login__form {
@@ -155,13 +143,3 @@
         font-size: 0.9rem;
     }
 } 
-=======
-
-    }
-
-    .login__form {
-        padding: 5rem;
-    }
-
-} 
->>>>>>> d1d804d5ac3c4fc8ef35b788bcb10982f7021885
