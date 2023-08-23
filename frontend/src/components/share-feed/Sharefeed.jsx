@@ -1,7 +1,8 @@
 import React from 'react'
 import './sharefeed.css'
-import img from '../../assets/images/animal-01.jpg'
-import {MdPermMedia} from 'react-icons/md'
+import img from '../../assets/images/3459610.jpg'
+import {MdPermMedia, MdLocationOn} from 'react-icons/md'
+import {AiFillTags} from 'react-icons/ai'
 import { Button } from 'reactstrap'
 
 
@@ -25,7 +26,7 @@ const Sharefeed = () => {
             <hr className='share__hr' />
 
                 
-            <div className='share__bottom'>
+            <div className='share__bottom d-flex justify-content-between'>
                 <div className='share__options'>
                     <div className='share__option'>
                         <MdPermMedia />
@@ -33,17 +34,24 @@ const Sharefeed = () => {
                     </div>
 
                     <div className='share__option'>
-                        <MdPermMedia />
+                        <AiFillTags />
                         <span>Tag</span>
                     </div>
 
                     <div className='share__option'>
-                        <MdPermMedia />
+                        <MdLocationOn />
                         <span>Location</span>
                     </div>
                 </div>
 
-                <Button className='btn primary__btn share__btn'>Share</Button>
+                <div className='share__buttons'>
+                    <Button className='btn primary__btn report__btn d-flex gap-1'>
+                        <i className="ri-alert-line"></i>
+                        Report
+                    </Button>
+                    <Button className='btn primary__btn share__btn'>Share</Button>
+                </div>
+                   
             </div>
         </div>
     </div>

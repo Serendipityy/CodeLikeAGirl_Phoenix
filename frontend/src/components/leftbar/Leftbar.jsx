@@ -17,7 +17,7 @@ const Leftbar = () => {
             src={avt}
             alt='user avatar'
           />
-          <span>Serendipity</span>
+          <h4>Helen</h4>
         </div>
 
         <hr className='leftbar__hr' />
@@ -57,17 +57,17 @@ const Leftbar = () => {
           
           <li className='leftbar__group__item'>
             <img src={avt} alt='' />
-            <span>group name</span>
+            <span>GreenNeighbor Connect</span>
           </li>
 
           <li className='leftbar__group__item'>
             <img src={avt} alt='' />
-            <span>group name</span>
+            <span>EarthWildlife Watch</span>
           </li>
 
           <li className='leftbar__group__item'>
             <img src={avt} alt='' />
-            <span>group name</span>
+            <span>GreenEnergy Innovators</span>
           </li>
         </ul>
       </div>

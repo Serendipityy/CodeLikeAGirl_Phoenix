@@ -11,7 +11,6 @@ import {BsFillShieldLockFill} from 'react-icons/bs'
 import {MdOutlineFacebook} from 'react-icons/md'
 import {AiFillTwitterCircle, AiFillGoogleCircle} from 'react-icons/ai'
 
-import wallpaper from '../assets/images/UIUX.png'
 const Login = () => {
 
   const [credentials, setCredentials] = useState({
@@ -107,7 +106,7 @@ const Login = () => {
                 gap-3'>
                     <span>Don't have an account?</span>
                     <Link to='/register'>
-                      <button className='btn secondary__btn'>Create new</button>
+                      <button className='btn secondary__btn createBtn'>Create new</button>
                     </Link>
                 </div>
               </div>

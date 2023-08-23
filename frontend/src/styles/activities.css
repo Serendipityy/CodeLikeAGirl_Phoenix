@@ -136,3 +136,14 @@
     left: 73%;
     border-radius: .5rem;
 }
+
+
+@media only screen and (max-width: 768px) {
+    .extra__img {
+        display: none;
+    }
+
+    .extra__info {
+        padding: 0;
+    }
+}

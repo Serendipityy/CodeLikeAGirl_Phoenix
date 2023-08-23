@@ -91,3 +91,55 @@
 .createAccount {
     font-size: 0.9rem;
 }
+
+
+
+@media only screen and (max-width: 768px) {
+    .login__container {
+        display: flex;
+        flex-direction: column;
+        height: 80%;
+    }
+
+    .login__img {
+        display: none;
+    }
+
+    .login__form {
+        width: 100%;
+        padding: 2rem;
+    }
+    
+    .createAccount .createBtn{
+        padding: 0.5rem 0.75rem !important;
+    }
+
+    .login__content input {
+        font-size: 0.9rem;
+    }
+}
+
+
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .login__img {
+        display: block;
+        width: 60%;
+    }
+
+    .login__container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        height: 55vh;
+    }
+
+    .login__form {
+        padding: 4rem;
+    }
+
+    
+    .login__content input {
+        font-size: 0.9rem;
+    }
+} 

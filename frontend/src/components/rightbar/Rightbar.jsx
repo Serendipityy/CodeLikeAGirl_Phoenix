@@ -1,7 +1,7 @@
 import React from 'react'
 import './rightbar.css'
 import avt from '../../assets/images/animal-02.jpg'
-import img from '../../assets/images/animal-03.jpg'
+import img from '../../assets/images/helping-hands-volunteer-support-community-service-graphic.jpg'
 const Rightbar = () => {
   return (
     <div className='rightbar'>
@@ -12,17 +12,17 @@ const Rightbar = () => {
           
           <li className='rightbar__activity__item'>
             <img src={avt} alt='' />
-            <span>activity name</span>
+            <span>Green Clean-Up Day</span>
           </li>
 
           <li className='rightbar__activity__item'>
             <img src={avt} alt='' />
-            <span>activity name</span>
+            <span>Climate Action Seminar</span>
           </li>
 
           <li className='rightbar__activity__item'>
             <img src={avt} alt='' />
-            <span>activity name</span>
+            <span>Ocean Guardians Cleanup</span>
           </li>
           </ul>
         </div>

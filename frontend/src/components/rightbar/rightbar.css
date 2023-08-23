@@ -32,3 +32,9 @@
     max-height: 250px;
     object-fit: cover;
 }
+
+.rightbar__activity__list p,
+.rightbar__rank__list p {
+    font-weight: 600;
+    color: var(--highlight-color);
+}

@@ -35,6 +35,12 @@
     border-radius: 50%;
 }
 
+.leftbar__user h4 {
+    font-family: 'Dancing Script', cursive;
+    font-weight: 600;
+    color: var(--highlight-color);
+}
+
 
 .leftbar__wrapper {
     padding: 1rem;
@@ -49,7 +55,12 @@
 
 .leftbar__menu__icon {
     margin-right: .5rem;
-    color: var(--secondary-color);
+    /* color: var(--secondary-color); */
+}
+
+.leftbar__group__list p {
+    font-weight: 600;
+    color: var(--highlight-color);
 }
 
 .leftbar__group__item {

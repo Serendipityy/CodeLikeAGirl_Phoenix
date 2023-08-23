@@ -51,7 +51,7 @@
 
 .content p {
     /* Để căn chỉnh phù hợp cả 2 phía */
-    text-align: justify;
+    /* text-align: justify; */
     line-height: 30px;
 }
 
