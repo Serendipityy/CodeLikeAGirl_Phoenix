@@ -31,7 +31,7 @@ const FundraisingCampaign = () => {
     const settings = {
         dots:true,
         infinite:true,
-        autoplay:true,
+        autoplay:false,
         speed:1000,
         swipeToSlide:true,
         autoplaySpeed:2000,
@@ -64,11 +64,27 @@ const FundraisingCampaign = () => {
                 Eco System for Global Warmings
             </h5>
 
-            <div className='d-flex flex-column align-items-center gap-4 mt-3'>
+            <div className='d-flex flex-column gap-4 mt-3'>
                 <img src={ava01} className='w-100 h-25 rounded-2' alt='' />
-                <div>
+                {/* <div>
                     <button className='btn primary__btn'>Donate Us</button>
+                </div> */}
+                <div className='d-flex flex-column gap-2'>   
+                    <div className='raised__data'>
+                        <div className='raised__titles'>
+                            <div className='raised__name'>Raised</div>
+                            <div className='raised__percent'>26%</div>
+                        </div>
+
+                        <div className='raised__bar'>
+                            <span className='raised__percentage eco'></span>
+                        </div>
+                    </div>
+
+                    <p className='goal ecoGoal'>Goal: <span>3000 USD</span></p>      
+
                 </div>
+
             </div>
         </div>
 
@@ -77,10 +93,22 @@ const FundraisingCampaign = () => {
                 Let's Fight for Save Animals
             </h5>
 
-            <div className='d-flex flex-column align-items-center gap-4 mt-3'>
+            <div className='d-flex flex-column gap-4 mt-3'>
                 <img src={ava01} className='w-100 h-25 rounded-2' alt='' />
-                <div>
-                    <button className='btn primary__btn'>Donate Us</button>
+                <div className='d-flex flex-column gap-2'>   
+                    <div className='raised__data'>
+                        <div className='raised__titles'>
+                            <div className='raised__name'>Raised</div>
+                            <div className='raised__percent'>26%</div>
+                        </div>
+
+                        <div className='raised__bar'>
+                            <span className='raised__percentage animal'></span>
+                        </div>
+                    </div>
+
+                    <p className='goal'>Goal: <span>3000 USD</span></p>      
+
                 </div>
             </div>
         </div>
@@ -90,10 +118,22 @@ const FundraisingCampaign = () => {
                         Let's Fight for Global Warming
             </h5>
 
-            <div className='d-flex flex-column align-items-center gap-4 mt-3'>
+            <div className='d-flex flex-column gap-4 mt-3'>
                 <img src={ava01} className='w-100 h-25 rounded-2' alt='' />
-                <div>
-                    <button className='btn primary__btn'>Donate Us</button>
+                <div className='d-flex flex-column gap-2'>   
+                    <div className='raised__data'>
+                        <div className='raised__titles'>
+                            <div className='raised__name'>Raised</div>
+                            <div className='raised__percent'>60%</div>
+                        </div>
+
+                        <div className='raised__bar'>
+                            <span className='raised__percentage animal'></span>
+                        </div>
+                    </div>
+
+                    <p className='goal animalGoal'>Goal: <span>4500 USD</span></p>      
+
                 </div>
             </div>
         </div>
@@ -103,10 +143,22 @@ const FundraisingCampaign = () => {
                 Eco System for Global Warmings
             </h5>
 
-            <div className='d-flex flex-column align-items-center gap-4 mt-3'>
+            <div className='d-flex flex-column gap-4 mt-3'>
                 <img src={ava01} className='w-100 h-25 rounded-2' alt='' />
-                <div>
-                    <button className='btn primary__btn'>Donate Us</button>
+                <div className='d-flex flex-column gap-2'>   
+                    <div className='raised__data'>
+                        <div className='raised__titles'>
+                            <div className='raised__name'>Raised</div>
+                            <div className='raised__percent'>26%</div>
+                        </div>
+
+                        <div className='raised__bar'>
+                            <span className='raised__percentage eco'></span>
+                        </div>
+                    </div>
+
+                    <p className='goal'>Goal: <span>1500 USD</span></p>      
+
                 </div>
             </div>
         </div>

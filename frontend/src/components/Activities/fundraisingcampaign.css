@@ -1,6 +1,51 @@
 .fundraising {
     background: url('../../assets/images/intro_bg.jpg') center;
+
 }
 .fundraising h5 {
     height: 48px;
+}
+
+
+
+.raised__titles {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: .25rem;
+    color: var(--text-color);
+    font-size: 1rem;
+}
+
+.raised__bar {
+    background: #f1f1f1;
+}
+
+.raised__bar, 
+.raised__percentage {
+    height: 7px;
+    border-radius: 0.25rem;
+}
+
+.raised__percentage {
+    display: block;
+}
+
+.eco {
+    width: 26%;
+    background: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+}
+
+.animal {
+    width: 60%;
+    background: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+
+}
+
+
+.goal {
+    font-size: 1rem;
+}
+
+.ecoGoal span {
+    color: var(--highlight-color);
 }
