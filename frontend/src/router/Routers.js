@@ -16,6 +16,7 @@ import Homepage from '../pages/homepage/Homepage'
 import Activities from '../pages/Activities'
 import ChallengeDetails from '../pages/ChallengeDetails'
 import ActivitiesDetails from '../pages/ActivitiesDetails'
+import RedeemPoint from '../pages/RedeemPoint'
 
 const Routers = () => {
   return (
@@ -37,7 +38,7 @@ const Routers = () => {
         <Route path='activities' element={<Activities />}/>
         <Route path='challenge/:hashtag' element={<ChallengeDetails/>} />
         <Route path='/activities/:id' element={<ActivitiesDetails />} />
-
+        <Route path='/challenge/redeem-point' element={<RedeemPoint />} />
     </Routes>
   )
 }

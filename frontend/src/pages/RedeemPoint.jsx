@@ -3,6 +3,7 @@ import React, {useState}from "react";
 import '../styles/redeem.css';
 
 import Map from "./map/handle_map.js";
+import {Container, Row, Col} from 'reactstrap'
 
 import SearchBox from "./map/handle_searchbar.js"
     
@@ -12,28 +13,38 @@ const RedeemPoint = () => {
 
     return (
         <>
-
         <div className="RedeemPoint">
-        <h1>Redeem Your Point</h1>
+        <h1>Congrats. Here we have a special gift for you!</h1>
+        <Container>
+            <Row className="redeem__row">
+                <Col lg='4'>
+                <Map/>
+                </Col>
+                <Col lg='4'>
+                <div className="information">
+                    <div className = "input-box">
+                        <label>Choose Your Tree/Flower</label>
+                        <input type="text">
+                        </input>
+                    </div>
+                    <div className = "input-box">
+                        <label>Location</label>
+                        <input type="text">
 
+                        </input>
+                        
+                    </div>
+                    <button  className="btn primary__btn mt-3 redeem__btn">Submit</button>
+            </div>
+                </Col>
+            </Row>
+            {/* <div className = 'map'>
+            </div> */}
 
-        <div className = 'map'>
-            <Map/>
+           
+        </Container>
         </div>
 
-        <section className="information">
-            <div className = "input-box">
-                <input type="text"></input>
-                <label>Choose Your Tree/Flower</label>
-            </div>
-            <div className = "input-box">
-                <input type="text"></input>
-                <label>Location</label>
-                
-            </div>
-            <button  className="btn primary__btn">Submit</button>
-        </section>
-        </div>
         </>
       
     )
